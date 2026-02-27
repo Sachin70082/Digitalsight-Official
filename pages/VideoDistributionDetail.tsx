@@ -26,7 +26,7 @@ const VideoDistributionDetail: React.FC = () => {
               VIDEO <br /><span className="text-red-500/30 italic">DISTRIBUTION.</span>
             </h1>
             <p className="text-gray-400 text-lg md:text-xl font-light leading-relaxed max-w-xl">
-              High-definition delivery to the world's premier video platforms including Vevo, Apple Music Video, and Tidal.
+              High-definition delivery to the world's premier video platforms including YouTube Music, Apple Music Video, and Tidal.
             </p>
             <div className="flex gap-6 pt-4">
               <a 
@@ -55,8 +55,8 @@ const VideoDistributionDetail: React.FC = () => {
           {[
             { 
               icon: <Tv className="text-red-500" />, 
-              title: "PREMIUM CHANNELS", 
-              desc: "Placement on Vevo and YouTube Official Artist Channels (OAC) with verified branding." 
+              title: "PREMIUM CHANNELS",
+              desc: "Placement on YouTube Official Artist Channels (OAC) with verified branding."
             },
             { 
               icon: <Youtube className="text-white" />, 

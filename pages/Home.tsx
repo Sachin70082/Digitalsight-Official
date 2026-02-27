@@ -143,15 +143,15 @@ const Home: React.FC = () => {
             </div>
             
             <h1 className="font-display text-4xl sm:text-5xl md:text-7xl lg:text-[6.5rem] font-black tracking-tight leading-[1] md:leading-[0.85] text-white uppercase overflow-hidden">
-              <span className="block transition-transform duration-1000 translate-y-0">GLOBAL MUSIC</span>
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-blue-600 to-indigo-400 italic block">
-                {APP_CONFIG.TAGLINE.split(' ').slice(3).join(' ')}
+              <span className="block transition-all duration-1000 animate-pulse">GLOBAL MUSIC</span>
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-blue-600 to-indigo-400 italic block animate-bounce-slow">
+                YOURS NOW.
               </span>
             </h1>
 
             <p className="text-gray-400 text-base sm:text-lg md:text-xl lg:text-2xl max-w-2xl mx-auto lg:mx-0 leading-relaxed font-light">
-              One link to 150+ platforms. <span className="text-white font-semibold">Keep 100% of your ownership.</span> <br className="hidden md:block" />
-              Professional infrastructure for the modern creator.
+              Global music distribution to 150+ platforms including Spotify, Apple Music, and Amazon. <span className="text-white font-semibold">Keep 100% of your ownership and 70% royalties.</span> <br className="hidden md:block" />
+              Professional infrastructure for independent artists and record labels.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-5 md:gap-8 pt-4">
@@ -432,6 +432,27 @@ const Home: React.FC = () => {
         </div>
       </section>
 
+      {/* SEO Content Section - Hidden from users but visible to search engines */}
+      <section className="sr-only">
+        <h2>Best Global Music Distribution Service for Independent Artists</h2>
+        <p>
+          Digitalsight Innovations provides the best digital music distribution services for independent artists and record labels in India and worldwide. 
+          Our platform allows you to sell your music on Spotify, Apple Music, Amazon Music, YouTube Music, TikTok, Instagram, Facebook, and 150+ other streaming services.
+        </p>
+        <ul>
+          <li>Global Music Distribution Agency</li>
+          <li>Spotify for Artists and Apple Music for Artists Integration</li>
+          <li>YouTube Content ID Monetization and YouTube CMS Management</li>
+          <li>Professional Video Distribution to Global Platforms</li>
+          <li>Music Publishing, Mechanical Royalties, and Performance Royalties</li>
+          <li>Sync Licensing and Music Marketing for Independent Artists</li>
+          <li>Digital Music Aggregator with Fast Delivery and ISRC/UPC Generation</li>
+          <li>CRBT / Caller Tune Support for Jio, Airtel, VI, and BSNL</li>
+          <li>Music Distribution to JioSaavn, Wynk Music, and Gaana</li>
+          <li>Unlimited Music Distribution for Record Labels</li>
+        </ul>
+      </section>
+
       {/* Final Call to Action */}
       <section className="py-24 md:py-40 max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-16 mb-24 md:mb-40">
         <div className="relative rounded-[3rem] md:rounded-[6rem] overflow-hidden p-14 md:p-36 text-center group shadow-3xl border border-white/5">
@@ -465,6 +486,13 @@ const Home: React.FC = () => {
         }
         .animate-loading-bar {
           animation: loading-bar 4s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+        }
+        @keyframes bounce-slow {
+          0%, 100% { transform: translateY(0); }
+          50% { transform: translateY(-10px); }
+        }
+        .animate-bounce-slow {
+          animation: bounce-slow 3s ease-in-out infinite;
         }
       `}</style>
     </div>

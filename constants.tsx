@@ -15,37 +15,37 @@ export const NAV_ITEMS: NavItem[] = [
 export const SERVICES: Service[] = [
   {
     title: 'Music Distribution',
-    description: 'Get your tracks on 150+ stores like Spotify, Apple Music, and JioSaavn.',
+    description: 'Global music distribution to 150+ stores like Spotify, Apple Music, and JioSaavn. Includes CRBT / Caller Tune support. Keep 70% of your royalties.',
     icon: <Music className="w-8 h-8 text-purple-500" />,
     path: '/distribution'
   },
   {
     title: 'Video Distribution',
-    description: 'Global reach on VEVO, YouTube Music, Facebook, and Instagram Video.',
+    description: 'Global video distribution on YouTube Music, Facebook, and Instagram Video. Professional setup for artists.',
     icon: <Video className="w-8 h-8 text-blue-500" />,
     path: '/distribution#video-distribution'
   },
   {
-    title: 'YouTube CMS',
-    description: 'Advanced content management and monetization for high-traffic channels.',
+    title: 'YouTube CMS & Content ID',
+    description: 'Advanced YouTube CMS management, Content ID monetization, and copyright protection for high-traffic channels.',
     icon: <Youtube className="w-8 h-8 text-red-500" />,
     path: '/distribution#youtube-cms'
   },
   {
     title: 'Mixing & Mastering',
-    description: 'Professional-grade audio engineering to make your sound radio-ready.',
+    description: 'Professional-grade audio engineering and mastering services to make your sound radio-ready for global streaming.',
     icon: <Headphones className="w-8 h-8 text-emerald-500" />,
     path: '/mixing-mastering'
   },
   {
-    title: 'Artist Support',
-    description: 'Dedicated account managers to help you navigate the music industry.',
+    title: 'Artist Support & Marketing',
+    description: 'Dedicated account managers and music marketing tools to help independent artists navigate the music industry.',
     icon: <Users className="w-8 h-8 text-orange-500" />,
     path: '/about#artist-support'
   },
   {
-    title: 'Promotion Tools',
-    description: 'Smart links and pre-save campaigns to boost your release visibility.',
+    title: 'Promotion & Smart Links',
+    description: 'Smart links, pre-save campaigns, and artist promotion tools to boost your release visibility and streaming numbers.',
     icon: <Zap className="w-8 h-8 text-yellow-500" />,
     path: '/distribution#promotion'
   }

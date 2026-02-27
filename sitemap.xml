@@ -49,14 +49,6 @@
     <priority>0.7</priority>
   </url>
 
-  <!-- Vevo Setup Page -->
-  <url>
-    <loc>https://digitalsight.in/vevo-setup/</loc>
-    <lastmod>2025-01-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
   <!-- Mixing & Mastering Page -->
   <url>
     <loc>https://digitalsight.in/mixing-mastering/</loc>

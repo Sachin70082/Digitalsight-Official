@@ -27,7 +27,6 @@ const Footer: React.FC = () => {
               <li><Link to="/video-distribution" className="hover:text-blue-400 transition-colors">Video Distribution</Link></li>
               <li><Link to="/mixing-mastering" className="hover:text-blue-400 transition-colors">Mixing & Mastering</Link></li>
               <li><Link to="/content-id" className="hover:text-blue-400 transition-colors">Content ID Management</Link></li>
-              <li><Link to="/vevo-setup" className="hover:text-blue-400 transition-colors">Vevo Channel Setup</Link></li>
             </ul>
           </div>
 

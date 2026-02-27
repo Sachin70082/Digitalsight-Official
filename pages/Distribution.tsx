@@ -68,7 +68,7 @@ const Distribution: React.FC = () => {
               <span className="text-gray-500 font-bold uppercase text-[10px] tracking-widest">/ Annual</span>
             </div>
             <ul className="space-y-5 mb-14 flex-grow">
-              {["Unlimited Music Distribution", `Keep ${APP_CONFIG.ARTIST_PLAN_ROYALTY} Royalties`, `${APP_CONFIG.ARTIST_PLAN_PROFILES} Artist Profile`, "Global Store Network", "Smart Promotional Links"].map((f, j) => (
+              {["Unlimited Music Distribution", `Keep ${APP_CONFIG.ARTIST_PLAN_ROYALTY} Royalties`, `${APP_CONFIG.ARTIST_PLAN_PROFILES} Artist Profile`, "Global Store Network", "CRBT / Caller Tune Support", "Smart Promotional Links"].map((f, j) => (
                 <li key={j} className="flex items-center gap-4 text-gray-400">
                   <div className="w-5 h-5 rounded-full bg-blue-500/10 flex items-center justify-center shrink-0">
                     <Check className="w-3 h-3 text-blue-500" />
@@ -104,7 +104,7 @@ const Distribution: React.FC = () => {
               <span className="text-gray-500 font-bold uppercase text-[10px] tracking-widest">/ Annual</span>
             </div>
             <ul className="space-y-5 mb-14 flex-grow">
-              {["Unlimited Master Assets", `Keep ${APP_CONFIG.LABEL_PLAN_ROYALTY} Royalties`, `${APP_CONFIG.LABEL_PLAN_PROFILES} Profiles`, "YouTube CMS Integration", "Vevo Channel Access", `Priority ${APP_CONFIG.SUPPORT_RESPONSE_TIME} Support`].map((f, j) => (
+              {["Unlimited Master Assets", `Keep ${APP_CONFIG.LABEL_PLAN_ROYALTY} Royalties`, `${APP_CONFIG.LABEL_PLAN_PROFILES} Profiles`, "YouTube CMS Integration", "CRBT / Caller Tune Support", "Global Video Distribution", `Priority ${APP_CONFIG.SUPPORT_RESPONSE_TIME} Support`].map((f, j) => (
                 <li key={j} className="flex items-center gap-4 text-gray-300">
                   <div className="w-5 h-5 rounded-full bg-blue-500/20 flex items-center justify-center shrink-0">
                     <Check className="w-3 h-3 text-blue-500" />
@@ -132,13 +132,13 @@ const Distribution: React.FC = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
               <div className="space-y-10">
                 <span className="text-blue-500 font-bold uppercase tracking-widest text-[11px] block">Advanced Monetization</span>
-                <h2 className="font-display text-4xl lg:text-7xl font-black mb-8 leading-[0.95] uppercase text-white">YOUTUBE <br /><span className="text-white/30">CMS & VEVO</span></h2>
+                <h2 className="font-display text-4xl lg:text-7xl font-black mb-8 leading-[0.95] uppercase text-white">YOUTUBE <br /><span className="text-white/30">CMS & CONTENT ID</span></h2>
                 <p className="text-gray-400 text-lg lg:text-xl font-light leading-relaxed">
                   We provide direct access to YouTube's Content ID systems. 
                   Every use of your audio across the platform is claimed and monetized automatically.
                 </p>
                 <div className="space-y-6">
-                   {["Automated Rights Protection", "Global Asset Claiming", "Vevo Official Channel Setup"].map((item, i) => (
+                   {["Automated Rights Protection", "Global Asset Claiming", "Official Artist Channel Setup"].map((item, i) => (
                      <div key={i} className="flex items-center gap-4 text-gray-300">
                         {/* Fix: Added CheckCircle2 to imports from lucide-react */}
                         <CheckCircle2 className="text-blue-500 w-5 h-5" />
@@ -160,6 +160,25 @@ const Distribution: React.FC = () => {
               </div>
             </div>
           </div>
+        </section>
+
+        {/* SEO Content Section - Hidden from users but visible to search engines */}
+        <section className="sr-only">
+          <h2>Professional Music and Video Distribution Services</h2>
+          <p>
+            Our distribution platform offers comprehensive services for artists and labels. 
+            From Spotify distribution to YouTube CMS management, we handle the technical logistics of your music career.
+          </p>
+          <ul>
+            <li>Digital Music Aggregator for Spotify, Apple Music, and Amazon</li>
+            <li>YouTube CMS Management and Content ID Monetization</li>
+            <li>Official Artist Channel (OAC) Setup and Video Distribution</li>
+            <li>CRBT / Caller Tune Support for All Major Indian Carriers</li>
+            <li>Music Distribution for Independent Artists with 70% Royalties</li>
+            <li>Global Music Distribution to JioSaavn, Wynk, and Gaana</li>
+            <li>ISRC and UPC Code Generation for All Releases</li>
+            <li>Music Marketing and Smart Link Tools for Artists</li>
+          </ul>
         </section>
       </div>
     </div>

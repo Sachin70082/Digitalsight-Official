@@ -13,7 +13,6 @@ import Contact from './pages/Contact';
 import MusicDistributionDetail from './pages/MusicDistributionDetail';
 import VideoDistributionDetail from './pages/VideoDistributionDetail';
 import ContentIDDetail from './pages/ContentIDDetail';
-import VevoSetupDetail from './pages/VevoSetupDetail';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 const ScrollToTop: React.FC = () => {
   const { pathname } = useLocation();
@@ -37,7 +36,6 @@ const App: React.FC = () => {
             <Route path="/music-distribution" element={<MusicDistributionDetail />} />
             <Route path="/video-distribution" element={<VideoDistributionDetail />} />
             <Route path="/content-id" element={<ContentIDDetail />} />
-            <Route path="/vevo-setup" element={<VevoSetupDetail />} />
             <Route path="/mixing-mastering" element={<MixingMastering />} />
             <Route path="/platforms" element={<Platforms />} />
             <Route path="/contact" element={<Contact />} />

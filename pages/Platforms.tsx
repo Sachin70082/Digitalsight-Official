@@ -24,7 +24,7 @@ const Platforms: React.FC = () => {
               title: "VIDEO & TV", 
               color: "bg-red-500", 
               platforms: PLATFORMS.filter(p => p.category === 'video'),
-              additional: ["VEVO", "Tidal Video"]
+              additional: ["YouTube Music", "Tidal Video"]
             },
             { 
               title: "SOCIAL & APPS", 
