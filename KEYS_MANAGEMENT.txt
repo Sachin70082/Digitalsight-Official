@@ -17,11 +17,11 @@ FACEBOOK: https://facebook.com/digitalsight
 YOUTUBE: https://youtube.com/digitalsight
 
 [BUSINESS LOGIC & PRICING]
-ARTIST_PLAN_PRICE: ₹1199 / Year
+ARTIST_PLAN_PRICE: ₹599 / Year
 ARTIST_PLAN_ROYALTY: 70% to Artist
 ARTIST_PLAN_PROFILES: 1 Artist Profile
 
-LABEL_PLAN_PRICE: ₹5499 / Year
+LABEL_PLAN_PRICE: ₹1199 / Year
 LABEL_PLAN_ROYALTY: 70% to Label/Artist
 LABEL_PLAN_PROFILES: Unlimited Artist Profiles
 
