@@ -9,6 +9,7 @@ export const NAV_ITEMS: NavItem[] = [
   { label: 'Distribution', path: '/distribution' },
   { label: 'Mixing & Mastering', path: '/mixing-mastering' },
   { label: 'Platforms', path: '/platforms' },
+  { label: 'Knowledge Base', path: 'https://docs.digitalsight.in/', isExternal: true },
   { label: 'Contact', path: '/contact' },
 ];
 
